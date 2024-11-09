@@ -53,7 +53,7 @@ header{
                 a{
                     text-decoration: none;
                     color: white;
-                    font-size: 10px;
+                    font-size: 15px;
                 }
             }
         }
@@ -167,8 +167,9 @@ header{
         position: absolute;
         top: -100px;
         left: 200px;
-        width: 350px;
+        width: 400px;
         padding: 2rem;
+        box-shadow: 0 0 20px -10px;
 
         .number{
             position: absolute;
@@ -196,7 +197,155 @@ header{
         top: -100px;
         background-color: #03AFFC;
         right: 200px;
-        width: 600px;
-        background-image: url(https://i.pinimg.com/564x/d1/80/e7/d180e73be4d1112220c8984a1e1d59c8.jpg);
+        width: 550px;
+        height: 428.25px;
+        background: linear-gradient(to left bottom, rgba(125, 202, 196, 0.7), rgba(25, 89, 125, 0.7)), url(https://i.pinimg.com/564x/d1/80/e7/d180e73be4d1112220c8984a1e1d59c8.jpg);
+        border-radius: 20px;
+        background-repeat: no-repeat;
+        padding: 2rem;
+        box-shadow: 0 0 20px -10px;
+
+        .number25{
+            position: absolute;
+            right: 2rem;
+            background-color: #03AFFC;
+            color: white;
+            padding: 0.3rem;
+            display: block;
+            justify-items: center;
+            border-radius: 5px;
+        }
+
+        h3, .text{
+            color: white;
+        }
+
+        .text{
+            margin-top: 0.5rem;
+            margin-bottom: 1rem;
+        }        
+
+        .learn-more{
+            background-color: #82CCC3;
+            width: 20%;
+            border-radius: 50px;
+            height: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            align-content: center;
+            margin-top: 1rem;
+            color: white;
+            font-weight: bold;
+        }
+
+        .contact{
+            display: flex;
+            justify-items: center;       
+            position: absolute;
+            bottom: 3rem;
+            width: 100%;
+
+            p{
+                color: white;
+            }
+
+            .fav{
+                height: 30px;
+                filter: invert(100%);
+                position: absolute;
+                right: 4.5rem;
+                opacity: 0.7;
+            }
+
+            .icon{
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                background-color: #82CCC3;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 1rem;
+
+
+                img{
+                    width: 50%;
+                    filter: invert(100%);
+                }
+            }
+
+        }
+    }
+}
+
+.topic{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .tap{
+        height: 30px;
+        box-shadow: 0 0 10px -8px;
+        margin: 2rem;
+        width: 100%;
+        display: block;
+        justify-items: center;
+
+        ul{
+            display: flex;
+
+            li{
+                list-style: none;
+
+                a{
+                    text-decoration: none;
+                    margin: 1rem;
+                    color: #919090;
+                }
+            };
+        }
+    }
+
+    .card{
+        display: flex;
+        width: 70%;
+
+        .card-1, .card-2, .card-3{
+            box-shadow: 0 0 20px -10px;
+            width: 300px;
+            padding: 1rem;
+            border-radius: 10px;
+            position: relative;
+            margin-right: 2rem;
+
+            .number{
+                background-color: #02ACFF;
+                width: 25px;
+                text-align: center;
+                border-radius: 5px;
+                position: absolute;
+                right: 1rem;
+                color: white;
+                font-size: 10px;
+                height: 20px;
+                padding: 2px;
+            }
+
+            p{
+                color: #979797;  
+                margin-top: 0.5rem;
+            }
+
+            img{
+                height: 200px;
+                width: 250px;
+                align-self: center;
+                justify-self: center;
+                margin-top: 0.5rem;
+            }
+        }
     }
 }
