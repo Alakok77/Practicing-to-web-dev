@@ -286,9 +286,13 @@ header{
     flex-direction: column;
     align-items: center;
 
+    h1{
+        font-size: 50px;
+    }
+
     .tap{
-        height: 30px;
-        box-shadow: 0 0 10px -8px;
+        height: 40px;
+        box-shadow: 0 3px 10px -10px;
         margin: 2rem;
         width: 100%;
         display: block;
@@ -296,14 +300,14 @@ header{
 
         ul{
             display: flex;
-
             li{
                 list-style: none;
 
                 a{
                     text-decoration: none;
-                    margin: 1rem;
+                    margin: 1rem 2rem;
                     color: #919090;
+                    font-size: 20px;
                 }
             };
         }
@@ -311,11 +315,12 @@ header{
 
     .card{
         display: flex;
-        width: 70%;
+        width: 100%;
+        justify-content: center;
 
         .card-1, .card-2, .card-3{
             box-shadow: 0 0 20px -10px;
-            width: 300px;
+            width: 350px;
             padding: 1rem;
             border-radius: 10px;
             position: relative;
@@ -346,6 +351,54 @@ header{
                 justify-self: center;
                 margin-top: 0.5rem;
             }
+        }
+    }
+}
+
+
+.work{
+    background: linear-gradient(to left bottom, rgba(125, 202, 196, 0.7), rgba(97, 210, 200, 0.7)), url(https://i.pinimg.com/564x/d7/ec/42/d7ec4294e43b6d32ae478f880eb3935e.jpg);
+    margin-top: 5rem;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+
+    h1{
+        color: white;
+    }
+
+    .content{
+        display: flex;
+        margin: 2rem;
+
+        .right{
+            position: absolute;
+            width: 50%;
+            right: 25%;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            border: 10px solid black;
+
+            .work-1, .work-2, .work-3{
+                display: flex;
+                flex-direction: column;
+            }
+
+
+            h2{
+                margin: 1.5rem;
+                border: 10px solid black;
+            }
+
+            p{
+                margin-bottom: 4.5rem;
+            }
+
         }
     }
 }
