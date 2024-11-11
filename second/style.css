@@ -475,3 +475,237 @@ header{
         }
     }
 }
+
+.asked{
+    display: flex;
+    margin-top: 5rem;
+
+    .left{
+        width: 40%;
+
+        h1{
+            margin-left: 15rem;
+            font-size: 50px;
+        }
+
+        img{
+            margin-left: 15rem;
+            width: 80%;
+        }
+    }
+
+    .right{
+        width: 60%;
+        padding-top: 15rem;
+        position: relative;
+
+        h2{
+            font-weight: 600;
+            height: 5px;
+            margin-top: 0;
+        }
+
+        p{
+            font-weight: 300;
+            margin-top: 3rem;
+            height: 60px;
+        }
+
+    }
+    
+}
+
+.office{
+    background-color: #F0F8FF;
+    margin-top: 8rem;       
+    justify-items: center;
+    align-content: center;
+    width: 100%;
+    display: block;
+    height: 600px;
+
+    h1{
+        font-size: 50px;
+    }
+
+    .wrapper{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        justify-content: space-around;;
+        width: 100%;
+        padding: 5rem;
+
+        img{
+            width: 35%;
+            height: 250px;
+            border-radius: 20px;
+
+        }
+
+        .head{
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+
+            h1{
+                font-size: 30px;
+                font-weight: 600;
+            }
+            
+            .place{
+                margin: 1rem 0;
+                color: #95999D;
+                padding-bottom: 2rem;
+                border-bottom: 2px solid #95999D;
+                font-size: 20px;
+                width: 80%;
+            }
+        }
+
+        .dubai{
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+
+            h1{
+                font-size: 30px;
+                font-weight: 600;
+            }
+            
+            .place{
+                margin: 1rem 0;
+                color: #95999D;
+                padding-bottom: 2rem;
+                font-size: 20px;
+                border-bottom: 2px solid #95999D;
+                width: 80%;
+            }
+        }
+    }
+
+    .phone{
+        display: flex;
+        width: 52%;
+        margin: 0.3rem 0;
+        justify-content: space-between;
+        color: #95999D;
+        align-items: center;
+
+        p{
+            font-size: 20px;
+        }
+
+        .num{
+            color: #80CFC6;
+            font-size: 18px;
+        }
+    }
+
+    .email{
+        display: flex;
+        width: 64%;
+        margin: 0.3rem 0;
+        justify-content: space-between;
+        color: #95999D;
+        align-items: center;
+
+        p{
+            font-size: 20px;
+        }
+
+        .num{
+            color: #80CFC6;
+            font-size: 18px;
+        }
+    }
+
+    
+}
+
+.footer{
+    display: flex;
+    margin-top: 3rem;
+    width: 100%;
+    height: 400px;
+    padding: 3rem;
+    justify-content: center;
+
+    .logo{
+        width: 20%;
+        display: flex;
+
+        .rec{
+            width: 40px;
+            height: 40px;
+            border: 2px solid black;
+            border-radius: 5px;
+            box-shadow: 2.5px 5px;
+            margin-right: 0.5rem;
+        }
+
+        h1{
+            font-size: 30px;
+        }
+    }
+
+    .resource{
+        width: 20%;
+
+            h2{
+                color: #1C607D;
+                margin-bottom: 1rem;
+            }
+
+        ul li{
+            list-style: none;
+
+            a{
+                text-decoration: none;
+                color: #82CCC3;
+            }
+        }
+    }
+
+    .info{
+        width: 20%;
+
+        h2{
+            color: #1C607D;
+            margin-bottom: 1rem;
+        }
+
+        ul li{
+            list-style: none;
+
+            a{
+                text-decoration: none;
+                color: #82CCC3;
+            }
+        }
+    }
+}
+
+.copyright{
+    .btn{
+        background-color: #82CCC3;
+        width: 100px;
+        height: 40px;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        padding: 0.2rem;
+        border-radius: 10px;
+        margin-bottom: 3rem;
+
+        p{
+            font-size: 15px;
+            color: white;
+        }
+    }
+    
+    p{
+        color: #95999D;
+    }
+}
